@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="dc" green="98" red="35" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder bottom="50" left="50" right="50" top="50"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel7" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="chbKhongPhaiRobot" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLabel6" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="txtTaiKhoan" alignment="0" pref="179" max="32767" attributes="0"/>
+                                          <Component id="cboCauHoiBiMat" alignment="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="txtCauTraLoi" alignment="0" pref="179" max="32767" attributes="0"/>
+                                          <Component id="txtMatKhau" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtMatKhau2" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnTaoTaiKhoan" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                      <Component id="btnThoat" min="-2" pref="118" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTaiKhoan" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtMatKhau" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtMatKhau2" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="cboCauHoiBiMat" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel6" max="32767" attributes="0"/>
+                          <Component id="txtCauTraLoi" pref="28" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="chbKhongPhaiRobot" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnTaoTaiKhoan" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="btnThoat" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="T&#xea;n T&#xe0;i Kho&#x1ea3;n"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#x1ead;t Kh&#x1ea9;u"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="X&#xe1;c Nh&#x1ead;n L&#x1ea1;i MK"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnTaoTaiKhoan">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="dc" green="98" red="35" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="T&#x1ea0;O T&#xc0;I KHO&#x1ea2;N"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnThoat">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="dc" green="98" red="35" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="THO&#xc1;T"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTaiKhoan">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[10, 20]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[13, 20]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C&#xe2;u H&#x1ecf;i B&#xed; M&#x1ead;t"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbKhongPhaiRobot">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nh&#x1ea5;n v&#xe0;o &#x111;&#xe2;y n&#x1ebf;u b&#x1ea1;n &#x111;&#x1ed3;ng &#xfd; v&#x1edb;i &#x110;i&#x1ec1;u kho&#x1ea3;n d&#x1ecb;ch v&#x1ee5;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cboCauHoiBiMat">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="37">
+                    <StringItem index="0" value="1. 1+1=?"/>
+                    <StringItem index="1" value="2. Ng&#x1b0;&#x1edd;i y&#xea;u c&#x169; c&#x1ee7;a b&#x1ea1;n t&#xea;n g&#xec;i?"/>
+                    <StringItem index="2" value="3. Ch&#x1eef; c&#xe1;i &#x111;&#x1ea7;u ti&#xea;n t&#xea;n crush l&#xe0;? "/>
+                    <StringItem index="3" value="4. B&#xe0;i h&#xe1;t b&#x1ea1;n &#x111;ang nghe m&#x1ed7;i ng&#xe0;y? "/>
+                    <StringItem index="4" value="5. B&#x1ed9; phim b&#x1ea1;n &#x111;ang th&#xed;ch l&#xe0; g&#xec;?"/>
+                    <StringItem index="5" value="6. B&#x1ea1;n th&#xed;ch u&#x1ed1;ng g&#xec; nh&#x1ea5;t? "/>
+                    <StringItem index="6" value="7. B&#x1ea1;n c&#xf3; nh&#x1edb; ng&#xe0;y sinh nh&#x1ead;t c&#x1ee7;a t&#xf4;i kh&#xf4;ng?"/>
+                    <StringItem index="7" value="8. B&#x1ea1;n coi t&#xf4;i l&#xe0; g&#xec; c&#x1ee7;a b&#x1ea1;n?"/>
+                    <StringItem index="8" value="9. B&#x1ea1;n ngh&#x129; g&#xec; v&#x1ec1; t&#xf4;i?"/>
+                    <StringItem index="9" value="10. B&#x1ea1;n mu&#x1ed1;n &#x111;&#x1b0;&#x1ee3;c c&#xf9;ng t&#xf4;i l&#xe0;m &#x111;i&#x1ec1;u g&#xec;?"/>
+                    <StringItem index="10" value="11. L&#x1ea7;n g&#x1ea7;n nh&#x1ea5;t b&#x1ea1;n kh&#xf3;c l&#xe0; v&#xec;? "/>
+                    <StringItem index="11" value="12. M&#x1ed1;i t&#xec;nh &#x111;&#x1ea7;u c&#x1ee7;a b&#x1ea1;n l&#xe0; ai?"/>
+                    <StringItem index="12" value="13. N&#xf3;i v&#x1ec1; n&#x1ee5; h&#xf4;n &#x111;&#x1ea7;u ti&#xea;n?"/>
+                    <StringItem index="13" value="14. Ti&#xea;u chu&#x1ea9;n ng&#x1b0;&#x1edd;i y&#xea;u c&#x1ee7;a b&#x1ea1;n l&#xe0; g&#xec;?"/>
+                    <StringItem index="14" value="15. B&#x1ea1;n &#x111;ang nh&#x1edb; &#x111;&#x1ebf;n ai?"/>
+                    <StringItem index="15" value="16. B&#x1ea1;n c&#xf2;n nh&#x1edb; ng&#x1b0;&#x1edd;i y&#xea;u c&#x169; kh&#xf4;ng?"/>
+                    <StringItem index="16" value="17. B&#x1ea1;n th&#xe2;n n&#x1eef; c&#x1ee7;a b&#x1ea1;n l&#xe0; ai?"/>
+                    <StringItem index="17" value="18. B&#x1ea1;n th&#xe2;n nam c&#x1ee7;a b&#x1ea1;n l&#xe0; ai?"/>
+                    <StringItem index="18" value="19. Ng&#x1b0;&#x1edd;i m&#xe0; b&#x1ea1;n tin t&#x1b0;&#x1edf;ng nh&#x1ea5;t l&#xe0; ai?"/>
+                    <StringItem index="19" value="20. T&#x1ea1;i sao b&#x1ea1;n ch&#x1b0;a y&#xea;u?"/>
+                    <StringItem index="20" value="21. B&#x1ea1;n th&#xed;ch &#x111;&#x1b0;&#x1ee3;c nh&#x1eaf;n tin/n&#xf3;i chuy&#x1ec7;n v&#x1edb;i ai ???"/>
+                    <StringItem index="21" value="22. M&#x1ed9;t n&#x1a1;i b&#x1ea1;n r&#x1ea5;t mu&#x1ed1;n &#x111;&#x1ebf;n l&#xe0;? "/>
+                    <StringItem index="22" value="23. M&#x1ed9;t chuy&#x1ec7;n khi&#x1ebf;n b&#x1ea1;n kh&#xf4;ng vui g&#x1ea7;n &#x111;&#xe2;y?"/>
+                    <StringItem index="23" value="24. D&#x1ea1;o n&#xe0;y b&#x1ea1;n th&#x1ebf; n&#xe0;o?"/>
+                    <StringItem index="24" value="25. C&#xf2;n th&#x1b0;&#x1a1;ng ng&#x1b0;&#x1edd;i y&#xea;u c&#x169; kh&#xf4;ng? "/>
+                    <StringItem index="25" value="26. Ch&#x1eef; c&#xe1;i &#x111;&#x1ea7;u ti&#xea;n c&#x1ee7;a t&#xea;n ng&#x1b0;&#x1edd;i b&#x1ea1;n gh&#xe9;t? "/>
+                    <StringItem index="26" value="27. Ba t&#x1eeb; m&#xf4; t&#x1ea3; b&#x1ea3;n th&#xe2;n b&#x1ea1;n? "/>
+                    <StringItem index="27" value="28. Ngh&#x1ec1; nghi&#x1ec7;p b&#x1ea1;n mong &#x1b0;&#x1edb;c khi c&#xf2;n nh&#x1ecf;? "/>
+                    <StringItem index="28" value="29. B&#x1ea1;n mu&#x1ed1;n l&#x1ead;p gia &#x111;&#xec;nh n&#x103;m bao nhi&#xea;u tu&#x1ed5;i? "/>
+                    <StringItem index="29" value="30. &#x110;i&#x1ec1;u g&#xec; khi&#x1ebf;n b&#x1ea1;n c&#x1ea3;m th&#x1ea5;y t&#x1ef1; ti? "/>
+                    <StringItem index="30" value="31. &#x110;i&#x1ec1;u b&#x1ea1;n t&#x1ef1; tin nh&#x1ea5;t l&#xe0;? "/>
+                    <StringItem index="31" value="32. Mai m&#x1ed1;t c&#x1b0;&#x1edb;i t&#xf4;i nha? "/>
+                    <StringItem index="32" value="33. Cho t&#xf4;i &#xf4;m b&#x1ea1;n &#x111;&#x1b0;&#x1ee3;c kh&#xf4;ng? "/>
+                    <StringItem index="33" value="34. Sinh nh&#x1ead;t b&#x1ea1;n th&#xed;ch &#x111;&#x1b0;&#x1ee3;c t&#x1eb7;ng g&#xec;? "/>
+                    <StringItem index="34" value="35. N&#x1ebf;u &#x111;&#x1b0;&#x1ee3;c t&#x1ef1; &#x111;&#x1eb7;t t&#xea;n cho b&#x1ea3;n th&#xe2;n th&#xec; t&#xea;n b&#x1ea1;n s&#x1ebd; l&#xe0; g&#xec;? "/>
+                    <StringItem index="35" value="36. H&#xe3;y tr&#x1ea3; l&#x1edd;i m&#x1ed9;t c&#xe2;u b&#x1ea1;n th&#xed;ch nh&#x1ea5;t!"/>
+                    <StringItem index="36" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCauTraLoi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[10, 20]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[13, 20]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C&#xe2;u Tr&#x1ea3; L&#x1edd;i"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="2"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="!!! H&#xe3;y ch&#x1ecd;n c&#xe2;u h&#x1ecf;i v&#xe0; nh&#x1edb; c&#xe2;u tr&#x1ea3; l&#x1edd;i &#x111;&#x1ec3; ch&#xfa;ng t&#xf4;i"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="2"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="c&#xf3; th&#x1ec3; h&#xf5; tr&#x1ee3; n&#x1ebf;u b&#x1ea1;n g&#x1eb7;p  ph&#x1ea3;i s&#x1ef1; c&#x1ed1; &#x111;&#x103;ng nh&#x1ead;p."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="txtMatKhau">
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="txtMatKhau2">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Candara" size="36" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x102;NG K&#xcd;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
